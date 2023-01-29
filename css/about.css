@@ -1,0 +1,47 @@
+/* about section styling */
+
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0, 0.64);
+}
+.about .about-content .right a{
+    margin-top: 28px;
+    margin-right: 20px;
+    padding: 8px 10px;
+    font-size: 30px;
+    background: crimson;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    background:none;
+    color: crimson;
+}
